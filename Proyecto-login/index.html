@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>document</title>
+    
+    <link rel="stylesheet" href="style.css"
+ </head>
+ <body>
+    <header>
+        <h1>Mi primer login</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="container">
+        <form id="LoginForm" onsubmit="return chequeLogin(event)">
+            <input type="email" name="email" id="email" placeholder="Ingresa tu email">
+            <input type="password" name="password" id="password" placeholder="Ingresa tu contrasena">
+            <input type="submit" value="Ingresar">
+        </form>
+        </div>
+        <p id="LoginMensaje"></p>
+    </main>
+    <footer><p>Todos los derechos son mios</p></footer>
+    <script>src="script.js"</script>
+ </body>
+</html>
